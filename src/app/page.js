@@ -289,7 +289,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="mb-3 border-b pb-3">
+        <div className="mb-3 border-b pb-3 break-after-page">
           <ContentTitle>EDDMStore</ContentTitle>
           <div className="flex mb-1">
             <Calendar className="mr-2">2020 - 2022</Calendar>
