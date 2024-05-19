@@ -149,11 +149,11 @@ export default function Home() {
             name="Vue.js"
             experience="5 yrs"
           ></ProgressBar>
-          <ProgressBar
+          {/* <ProgressBar
             filled={1}
             name="Angular"
             experience="5 yrs"
-          ></ProgressBar>
+          ></ProgressBar> */}
           <ProgressBar
             filled={4 / 5}
             name="NodeJS"
@@ -213,6 +213,7 @@ export default function Home() {
           </div>
           <div>
             <Badge>React</Badge>
+            <Badge>Python</Badge>
             <Badge>Vue.js</Badge>
             <Badge>NodeJS</Badge>
             <Badge>MongoDB</Badge>
@@ -221,7 +222,7 @@ export default function Home() {
             <Badge>AWS S3</Badge>
             <Badge>AWS SES</Badge>
             <Badge>AWS CloudWatch</Badge>
-            <Badge>Python</Badge>
+            <Badge>Next.js</Badge>
             <Badge>Laravel</Badge>
           </div>
           <ul type="disc" className="mt-2 text-sm leading-relaxed">
@@ -296,11 +297,12 @@ export default function Home() {
           <div>
             <Badge>Vue.js</Badge>
             <Badge>NodeJS</Badge>
+            <Badge>Python</Badge>
+            <Badge>Flask</Badge>
             <Badge>MongoDB</Badge>
             <Badge>MySQL</Badge>
             <Badge>AWS EC2</Badge>
             <Badge>AWS S3</Badge>
-            <Badge>Python</Badge>
           </div>
           <ul type="disc" className="mt-2 text-sm leading-relaxed">
             <li>
@@ -349,9 +351,11 @@ export default function Home() {
             <Badge>AWS EC2</Badge>
             <Badge>AWS S3</Badge>
             <Badge>AWS RDS</Badge>
+            <Badge>Android</Badge>
+            <Badge>Java</Badge>
+            <Badge>Kotlin</Badge>
             <Badge>Laravel Lumen</Badge>
             <Badge>Angular</Badge>
-            <Badge>Android</Badge>
           </div>
           <ul type="disc" className="mt-2 text-sm leading-relaxed">
             <li>
@@ -450,10 +454,11 @@ export default function Home() {
           </div>
           <div>
             <Badge>Angular</Badge>
+            <Badge>Android</Badge>
+            <Badge>Java</Badge>
             <Badge>AWS EC2</Badge>
             <Badge>AWS S3</Badge>
             <Badge>AWS CloudFront</Badge>
-            <Badge>Android</Badge>
           </div>
           <ul type="disc" className="mt-2 text-sm leading-relaxed">
             <li>
