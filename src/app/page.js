@@ -118,7 +118,7 @@ export default function Home() {
           </a>
           <div className="flex">
             <Website
-              href="https://www.linkedin.com/vishalbiswas"
+              href="https://www.linkedin.com/in/vishalbiswas"
               className="mt-1 me-3"
             >
               LinkedIn
